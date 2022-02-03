@@ -14,14 +14,12 @@ export const Ul = styled.ul`
   }
   @media (max-width: 2068px) {
     flex-flow: column nowrap;
-    /* background-color: red; */
     background-color:#e44445;
     z-index:3;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    /* height: 100vh; */
     height: 100vh;
     margin:auto;
     width: 50vw;
@@ -48,14 +46,10 @@ width: 100vw;
     height: 100vh;
     @media (max-width: 2068px) {
     flex-flow: column nowrap;
-    /* background-color: red; */
-    /* background-color:white; */
-    /* z-index:2; */
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    /* height: 100vh; */
     margin:auto;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;

@@ -41,22 +41,10 @@ export const StyledBurger = styled.div`
   }
 `;
 
-// export const Div=styled.div`
-// color: blue;
-// width: 30%;
-// height: 100%;
-// z-index:2;
 
-
-// `
 
 export const Div=styled.div`
-/* position: fixed; */
 z-index: 3;
-/* color: black;
-background-color: black;
-border-block-color: black; */
-/* width: 100%; */
 
 
 
@@ -88,18 +76,14 @@ export const Navigationsticky = styled.div`
     justify-content: space-between;
     padding: 0.6rem;
     position: fixed;
-    /* top: 10%; */
     top: 7.6%;
-    /* top:90%; */
     left: 0;
-    /* left: -16%; */
     right: 0;
-    /* right: 10%; */
     height: 97px;
     right: 0px;
     align-items: center;
     transition: transform ease .1s;
     margin-left:90%
   
-    /* background: aquamarine; */
+   
   `;

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { EntryPage, PageHeader, Mando, MandoH } from "./style";
 import EntryCard from "../components/entrycard/EntryCard";
-// import InputGroup from "../components/inputgroup/InputGroup";
 import Input from "../components/input/Input";
 import Button from "../components/button/Button";
 import InputGroup from "../components/inputgroup/InputGroup";

@@ -19,10 +19,8 @@ color: inherit;
 
 `;
 export const MandoH=styled.div`
-/* align-self: flex-end; */
     display: block;
     flex: 0 0 190px;
-  /* width: 100%; */
 
 
 

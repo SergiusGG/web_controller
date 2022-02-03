@@ -15,8 +15,7 @@ function Routes(){
 
         <BrowserRouter>
         <ScrollToTop>
-    {/* <ScrollToTop>
-    <Containertotal> */}
+    
 	<Switch>
   <Route exact path="/prueba2" 
  
@@ -51,9 +50,6 @@ function Routes(){
       <Prueba/>
     </Route>
 	</Switch>
-	{/* <Footer /> */}
-  {/* </Containertotal>
-  </ScrollToTop> */}
   </ScrollToTop>
 </BrowserRouter>
 

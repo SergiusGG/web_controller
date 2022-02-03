@@ -6,9 +6,7 @@ export const Body = styled.div`
     width: 100%;
     height: 100%;
     display: inline-block;
-    /* display: flex;
-    height: 5vw;
-    justify-content: space-evenly; */
+  
 
 
 `
@@ -21,10 +19,7 @@ margin-bottom: 10%;
 `
 export const Imghades=styled.img`
 width: 70%;
-/* height: 90%; */
-/* position: absolute; */
-/* align-items: center;
-justify-content: center; */
+
 margin-left: 14%;
 margin-top: 5%;
 

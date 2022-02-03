@@ -7,8 +7,7 @@ import Elden4 from "../../img/ER.png";
 import { Cont, Container, Img, Parrafo, Headerart, Video, iframe } from "../analisis/analisis.styles";
 import HeaderAnalisis from "../layout/Header/HeaderAnalisis";
 import Prueba from "../pruebas/Prueba";
-// import ReactPlayer from "react-player"
-// import Footer from "../layout/Footer/Footer";
+
 
 
 var myStyle2={
@@ -16,7 +15,6 @@ var myStyle2={
     overflow: "hidden",
     width: "100%",
     paddingTop: "56.25%",
-    // zIndex: "-1"
 }
 
 var myStyle={
@@ -30,32 +28,6 @@ var myStyle={
     margin:"auto",
     
 
-
-    // position: absolute;
-    // inset: 0px;
-    // width: 75%;
-    // height: 95%;
-    // margin-left: 10%;
-    
-
-
-
-
-    // width: "75%",
-    // margin: "auto",
-    // height: "80vh",
-    // marginLeft: "12.5%",
-    // margin: "auto",
-    // @media(max-width:768px){
-    //     width: 75%;
-    //     margin: auto auto auto 12.5%;
-    //     height: 40vh;
-    // }
-    // width: "45%",
-    // margin: "auto",
-    // height: "45vh",
-    // marginLeft: "26.5%",
-
 }
 
 
@@ -67,7 +39,6 @@ const Analisis = () => {
             <HeaderAnalisis>
                
             </HeaderAnalisis>
-            {/* <Img src={Elden}/> */}
             <Container style = {{  marginTop : "60%" }}>
             <Headerart>
             <p style={{marginRight:"5%"}}>por MARTA TRIVI</p>
@@ -81,27 +52,19 @@ const Analisis = () => {
             </Container>
           
             
-            {/* <ReactPlayer  style={myStyle} 
-                url="https://www.youtube.com/watch?v=zM4sLMw_IMw&ab_channel=XboxEspa%C3%B1a"
-                width= "75%"
-                height= "90vh"
-            
-            /> */}
+           
 
             <div style={myStyle2
                 // {margin:"auto"}
         }>
               
             <iframe 
-            //   className={rueba}
+         
             style={myStyle}
-            // width="100%"
-            //  height="600vh"
-            // wmode="Opaque"
-            // wmode="transparent"
+            
             src='https://youtube.com/embed/Wn0du7CA6-o' 
         frameborder='0'
-        // allow='autoplay; encrypted-media'
+      
         allowFullScreen="true"
         title='video'
         

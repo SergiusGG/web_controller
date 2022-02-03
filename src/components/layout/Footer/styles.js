@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import Colors from "theme/Colors.js";
 import Colors from "../../../theme/Colors"
 import { Link } from "react-router-dom";
 
@@ -7,17 +6,13 @@ import { Link } from "react-router-dom";
 export const Contenedor= styled.div`
 background-color: #e44445;
     display: flex;
-    /* justify-content: space-evenly; */
 	justify-content: space-between;
     align-items: center;
-    /* padding-top: 1%; */
     width: 100%;
     height: 1vh;
-    /* height: 6vw; */
     -webkit-box-pack: justify;
     padding: 60px 0 70px;
     color: #fff;
-    /* min-height: 310px; */
 
     @media(min-width:0px) {
    padding:0 0 0 0;
@@ -38,13 +33,8 @@ background-color: #e44445;
 
 
 export const Mando=styled.img`
-/* width: 30%; */
-    /* height: 60%; */
-	/* margin-top: 1%; */
-	/* padding-left: 100%; */
-	/* margin-left: 60%; */
+
     width: 65%;
-    /* padding-left: 20%; */
     margin-bottom: 5%;
 
     @media (min-width:320px){
@@ -60,7 +50,6 @@ color: rgb(240, 233, 233);
     text-decoration: none;
     font-size: .8vw;
     font-family: 'Pirata One', 'Trade Winds';
-	/* text-decoration: none; */
 	margin-left: 1%;
 	margin-right: 1%;
     
@@ -70,22 +59,10 @@ color: rgb(240, 233, 233);
     }
 	
 `
-// export const NavA1=styled(Link)`
-// color: rgb(240, 233, 233);
-//     text-decoration: none;
-//     font-size: .8vw;
-//     font-family: 'Pirata One', 'Trade Winds';
-// 	/* text-decoration: none; */
-// 	margin-left: 1%;
-// 	margin-right: 1%;
-    
-	
-// `
+
 
 export const List=styled.nav`
-/* display: flex; */
 margin-left: 5%;
-/* padding-right: 25% */
 
 
 `
@@ -107,7 +84,6 @@ display: flex;
     flex-direction: column;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    /* margin-right: 25%; */
     margin-left: 25%;
 
     @media(max-width:1235px){
@@ -123,9 +99,7 @@ display: flex;
 export const ListItem=styled.nav`
 
 text-decoration: none;
-/* padding: 0 14%; */
     font-size: 1 em;
-    /* margin: 0 4% 10% 0; */
 	
 ` 
 
@@ -137,22 +111,3 @@ font-size: 2vw
     
 	
 ` 
-// export const Wrapper = styled.div`
-// 	display: flex;
-// 	flex-direction: column;
-// 	width: 100%;
-// 	max-width: 600px;
-// 	margin: 0 auto;
-// 	padding-left: 30px;
-// 	padding-right: 30px;
-
-// `
-
-
-
-// columna del centro 
-// margin-right: 36%;
-//     width: 15%;
-
-// Para el texto
-//     font-size: 2vw

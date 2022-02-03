@@ -17,11 +17,8 @@ const  NavbarResp = ({open}) => {
     return (  
 <>
 
-{/* <Header1> */}
 	
-	{/* </Header1> */}
     <List open={open}>
-        {/* <Burger/> */}
 		<ListItem><NavA to="#" title="Noticias ">Noticias</NavA></ListItem>
 		<ListItem><NavA to="#" title="Análisis ">Ánalisis</NavA></ListItem>
 		<ListItem><NavA to="#" title="Opinion ">Opinión</NavA></ListItem>

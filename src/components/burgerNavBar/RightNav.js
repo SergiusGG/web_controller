@@ -12,17 +12,9 @@ const RightNav = ({ open }) => {
   return ( 
   
     
-  // <Div>
+  
   <>
-  {/* <Ul open={open}>
-     
-     <li>Noticias</li>
-     <li>Articulos</li>
-     <li>Analisis</li>
-     <li>Reflexiones</li>
-     <br></br>
-     <li>Entrar</li>
-   </Ul> */}
+ 
 <Blurry open={open}></Blurry>
 
     <Ul open={open}>
@@ -34,7 +26,7 @@ const RightNav = ({ open }) => {
       <br></br>
       <li>Entrar</li>
     </Ul>
-     {/* </Div> */}
+  
     </>
   )
 }
@@ -42,4 +34,3 @@ const RightNav = ({ open }) => {
 export default RightNav
 
 
-// Crear otra Ul para poner efecto blur u opacity o crear un componente como el burger pero que aparezca desde la izquierda con blur u opacity

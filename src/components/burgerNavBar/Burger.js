@@ -20,21 +20,16 @@ const Burger = () => {
     <>
     <Div>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
-        {/* <Link to="#"><div /></Link> */}
-        {/* antes eran div y el estilo de arriba tambien */}
-        {/* <Link to="#"><div /></Link>
-        <Link to="#"><div /></Link> */}
+        
         <div style={{backgroundColor: "black"}}/>
         <div style={{backgroundColor: "black"}}/>
         <div style={{backgroundColor: "black"}}/>
 
 
       </StyledBurger>
-      {/* <RightNav open={open}/> */}
 
       <div ref={node}>
-  {/* <Burger open={open} setOpen={setOpen} /> */}
-  {/* <Div></Div> */}
+  
   <RightNav open={open} setOpen={setOpen} />
 </div></Div>
     </>

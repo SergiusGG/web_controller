@@ -69,8 +69,6 @@ import Elden from "../../../img/Elden.jpg";
 import Podcast from "../../../img/Podcast.png";
 import Steam from "../../../img/Steam.jpg";
 import Pixel from "../../../img/Pixel.jpg";
-// import Toem from "../../../img/Toem.jpg";
-// import Switch from "../../../img/Switch.jpg";
 import Primero from "../../../img/Primero.jpg";
 import DE from "../../../img/DE.jpg";
 import Analisis from "../../analisis/analisis";
@@ -83,9 +81,9 @@ const Frontal =()=>{
 
         return(
             <>
-            {/* <BrowserRouter> */}
+            
             <Container>
-                {/* <Router> */}
+             
                     <Header/>
                         <Frontal1>
                         <Col><Img1><Foto1 src={Elden} alt="icono web"/><Titular to="#">DFHDFHDHF</Titular></Img1>
@@ -114,17 +112,6 @@ const Frontal =()=>{
                         <Col3><Img1><Foto1 src={Pixel} alt="icono web"/><Titular to="#">DFHDFHDHF</Titular></Img1>
                         <Linkfront to="#"><Titulofront>wejbgbsegsdbgkbsdg</Titulofront></Linkfront>
                         </Col3>
-                        {/* <Col><Img1><Foto1 src={Toem} alt="icono web"/></Img1></Col>
-                        <Col><Img1><Foto1 src={Switch} alt="icono web"/></Img1></Col> */}
-                
-
-
-
-
-
-
-
-
                         </Frontal1>
                         
                         <Ultracuerpo>
@@ -138,12 +125,7 @@ const Frontal =()=>{
                             <Headerart>
                                 <H3>También podrá seguirse por streaming</H3>
                                 <H2><Linkh2 to="/analisis">El festival Fun & Serious celebrará una nueva edición presencial entre el 10 y el 11 de diciembre</Linkh2></H2>
-                                {/* <H2><Route path="/analisis" component={Analisis}>El festival Fun & Serious celebrará una nueva edición presencial entre el 10 y el 11 de diciembre</Route></H2> */}
-                                {/* <Switch>
-                                <Route path="/Analisis">
-                                    <Analisis/>
-                                </Route>
-                                </Switch> */}
+                               
                                 
                             </Headerart>
                             <Desc>
@@ -253,75 +235,7 @@ const Frontal =()=>{
                         
 
                         </Articulo>
-                        {/* <Articulo>
-                        <Fotoart src={hades} alt="icono web"/>
-                        <Artcontainer>
-                            <Linkart to="#">5</Linkart>
-                            <Headerart>
-                                <H3>También podrá seguirse por streaming</H3>
-                                <H2><Linkh2 to="#">El festival Fun & Serious celebrará una nueva edición presencial entre el 10 y el 11 de diciembre</Linkh2></H2>
-                            </Headerart>
-                            <Desc>
-                                <Parrafo>El evento bilbaíno volverá en su XI edición con aforo limitado y una programación que se concentrará en las conferencias por encima de los actos de carácter presencial.</Parrafo>
-                            </Desc>
-
-                            <Footerart>
-                                <Footer1>28 OCTUBRE 2021</Footer1>
-                                <Footer2>por MARTA TRIVI</Footer2>
-
-                            </Footerart>
-
-
-                        </Artcontainer>
                         
-
-                        </Articulo> */}
-                        {/* <Articulo>
-                        <Fotoart src={hades} alt="icono web"/>
-                        <Artcontainer>
-                            <Linkart to="#">5</Linkart>
-                            <Headerart>
-                                <H3>También podrá seguirse por streaming</H3>
-                                <H2><Linkh2 to="#">El festival Fun & Serious celebrará una nueva edición presencial entre el 10 y el 11 de diciembre</Linkh2></H2>
-                            </Headerart>
-                            <Desc>
-                                <Parrafo>El evento bilbaíno volverá en su XI edición con aforo limitado y una programación que se concentrará en las conferencias por encima de los actos de carácter presencial.</Parrafo>
-                            </Desc>
-
-                            <Footerart>
-                                <Footer1>28 OCTUBRE 2021</Footer1>
-                                <Footer2>por MARTA TRIVI</Footer2>
-
-                            </Footerart>
-
-
-                        </Artcontainer>
-                        
-
-                        </Articulo>
-                        <Articulo>
-                        <Fotoart src={hades} alt="icono web"/>
-                        <Artcontainer>
-                            <Linkart to="#">5</Linkart>
-                            <Headerart>
-                                <H3>También podrá seguirse por streaming</H3>
-                                <H2><Linkh2 to="#">El festival Fun & Serious celebrará una nueva edición presencial entre el 10 y el 11 de diciembre</Linkh2></H2>
-                            </Headerart>
-                            <Desc>
-                                <Parrafo>El evento bilbaíno volverá en su XI edición con aforo limitado y una programación que se concentrará en las conferencias por encima de los actos de carácter presencial.</Parrafo>
-                            </Desc>
-
-                            <Footerart>
-                                <Footer1>28 OCTUBRE 2021</Footer1>
-                                <Footer2>por MARTA TRIVI</Footer2>
-
-                            </Footerart>
-
-
-                        </Artcontainer>
-                        
-
-                        </Articulo> */}
 
 
                     </Indice>
@@ -350,13 +264,10 @@ const Frontal =()=>{
 
                         </Aside1>
 
-                        {/* <Leermas></Leermas> */}
 
                          <Aside1>
 
-                            {/* <PriH3>
-                                <H3link>Analisis</H3link>
-                            </PriH3> */}
+                           
 
                             <ContAs1>
                                 <Miniatura><Imgaside src={Primero} /></Miniatura>
@@ -369,31 +280,13 @@ const Frontal =()=>{
 
                         </Aside1>
 
-                        {/* <Leermas></Leermas> */}
+                      
 
 
 
                          <Aside1>
 
-                            {/* <PriH3>
-                                <H3link>Analisis</H3link>
-                            </PriH3> */}
-
-                            <ContAs1>
-                                <Miniatura><Imgaside src={Primero} /></Miniatura>
-                                <Textmini>
-
-                                    <H2textmini>Analisis The good life</H2textmini>
-
-                                </Textmini>
-                            </ContAs1>
-
-                        </Aside1>
-                         <Aside1>
-
-                            {/* <PriH3>
-                                <H3link>Analisis</H3link>
-                            </PriH3> */}
+                           
 
                             <ContAs1>
                                 <Miniatura><Imgaside src={Primero} /></Miniatura>
@@ -407,9 +300,21 @@ const Frontal =()=>{
                         </Aside1>
                          <Aside1>
 
-                            {/* <PriH3>
-                                <H3link>Analisis</H3link>
-                            </PriH3> */}
+                         
+
+                            <ContAs1>
+                                <Miniatura><Imgaside src={Primero} /></Miniatura>
+                                <Textmini>
+
+                                    <H2textmini>Analisis The good life</H2textmini>
+
+                                </Textmini>
+                            </ContAs1>
+
+                        </Aside1>
+                         <Aside1>
+
+                            
 
                             <ContAs1>
                                 <Miniatura><Imgaside src={Primero} /></Miniatura>
@@ -431,38 +336,7 @@ const Frontal =()=>{
 
 
 
-                    {/* <Escaparate>
-
-                            <Intesc>
-
-                                <Fondo>
-                                    <Fondoimg src={DE}/>
-                                </Fondo>
-
-                                <Inferioresc>
-
-                                    <Superioresc>
-                                        <Superiorsub>ghkhgk</Superiorsub>
-                                        <Tituloesc><Linkesc>ghkghkghkghkghk</Linkesc></Tituloesc>
-                                        <Textoesc>fgjgfjgjtjgyninitnitnint</Textoesc>
-                                    </Superioresc>
-
-
-                                    <Artinf>
-                                        <Articuloinf>
-                                            <Linkartinf>
-                                                <Tituloart>jntjfgjfgj</Tituloart>
-                                                <Nombreart>fgjgfjgfjfggfjgjgf</Nombreart>
-                                            </Linkartinf>
-                                        </Articuloinf>
-
-                                    </Artinf>
-                                </Inferioresc>
-
-                            </Intesc>
-
-
-                    </Escaparate> */}
+                  
 
 
 
@@ -470,7 +344,7 @@ const Frontal =()=>{
                 </Ultracuerpo>
 
 
-                        {/* <Ultracuerpo> */}
+                        
                         <ContEsc>
                         <Escaparate>
 
@@ -541,7 +415,6 @@ const Frontal =()=>{
 
 </Escaparate>
 </ContEsc>
-{/* </Ultracuerpo> */}
 <Ultracuerpo>
 
 
@@ -758,9 +631,7 @@ const Frontal =()=>{
 
 <Footer/>
                     
-                {/* </Router> */}
 </Container>
-{/* </BrowserRouter> */}
 
 
 

@@ -9,9 +9,7 @@ Nav,
 const Navbar = () => {
   return (
     <Nav>
-      {/* <div className="logo">
-     
-      </div> */}
+   
       <Burger />
       {/* <div ref={node}>
   <Burger open={open} setOpen={setOpen} />

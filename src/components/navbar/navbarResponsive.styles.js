@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 
 
 export const List=styled.nav`
-/* display: flex; */
-/* margin-left: 1%;
-margin-right:50%; */
-/* position: absolute; */
-/* display: block; */
+
 width: 100%;
     display: flex;
     /* grid-template-columns: repeat(3,1fr);
@@ -32,12 +28,8 @@ width: 100%;
 export const ListItem=styled.nav`
 
 padding: 0 14%;
-    /* font-size: 1vw; */
     margin: 0% 0 0 0;
-    /* display: grid;
-    grid-template-columns: 360px 360px 210px;
-    grid-row-gap: 30px;
-  */
+
   
 
 	
