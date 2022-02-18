@@ -9,7 +9,9 @@ export const StyledBurger = styled.div`
   /* right: 15%; */
   /* right:${({ open }) => open ? '-180%' : '85%'}; */
   /* antes habia un -350% */
-  right:${({ open }) => open ? '0%' : '85%'};
+  /* right:${({ open }) => open ? '0%' : '85%'}; */
+  right:${({ open }) => open ? '-80%' : '75%'};
+
 
 
   z-index: 20;
@@ -20,9 +22,14 @@ export const StyledBurger = styled.div`
     justify-content: space-around;
     flex-flow: column nowrap;
   }
+  @media (max-width:768px){
+    /* right:${({ open }) => open ? '-60%' : '75%'}; */
+    right:${({ open }) => open ? '600%' : '75%'};
+    /* margin-right:10%; */
+  }
   div{
     width: 2rem;
-    height: 0.25rem;
+    height: 0.35rem;
     background-color: white;
     /* ${({ open }) => open ? '#ccc' : '#333'}; */
     border-radius: 10px;

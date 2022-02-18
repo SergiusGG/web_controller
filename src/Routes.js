@@ -17,6 +17,11 @@ function Routes(){
         <ScrollToTop>
     
 	<Switch>
+  <Route exact path="/header" 
+ 
+ >
+   <Header/>
+   </Route>
   <Route exact path="/prueba2" 
  
  >

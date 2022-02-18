@@ -32,7 +32,9 @@ import {
 	ListItem,
 	Header1,
 	MandoH,
-	Divprueba
+	Divprueba,
+	Linkfront2,
+	Foto
 } from "../Header/Header.styles";
 import { Container } from "../../../theme/GlobalStyles";
 import Navbar from "../../burgerNavBar/NavBar";
@@ -46,7 +48,7 @@ import Prueba2 from "../../pruebas/Prueba2";
 		return (
 			
 			<>
-			<Router>
+			{/* <Router> */}
 <Contenedor id="inicio" 
  >
 <Contenedor1>
@@ -58,25 +60,30 @@ import Prueba2 from "../../pruebas/Prueba2";
 
 <Header1 style={{margin:"auto"}}>
 	<List>
-	<ListItem>
-		<Before></Before><NavA to="#" title="Sony ">Sony</NavA></ListItem>
-		<ListItem><Before></Before><NavA to="#" title="Microsoft ">Microsoft</NavA></ListItem>
-		<ListItem><Before></Before><NavA to="#" title="Nintendo ">Nintendo</NavA></ListItem>
-		<ListItem><Before></Before><NavA to="#" title="PC">PC</NavA></ListItem>
-		<ListItem><Before></Before><NavA to="#" title="Podcast ">Podcast</NavA></ListItem>
-		<ListItem><Before></Before><NavA to="#" title="Reflexion">Reflexión</NavA></ListItem>
+	<ListItem><Before></Before><NavA to="#" title="Sony ">Sony</NavA></ListItem>
+	<ListItem><Before></Before><NavA to="#" title="Microsoft ">Microsoft</NavA></ListItem>
+	<ListItem><Before></Before><NavA to="#" title="Nintendo ">Nintendo</NavA></ListItem>
+	<ListItem><Before></Before><NavA to="#" title="PC">PC</NavA></ListItem>
+	<ListItem><Before></Before><NavA to="#" title="Podcast ">Podcast</NavA></ListItem>
+	<ListItem><Before></Before><NavA to="#" title="Reflexion">Reflexión</NavA></ListItem>
 
 	</List>
 	</Header1>
 
 
+
 <RRSS>
 	
+
 	<Navbar/>
 
-	<Link2 to="# " title="Facebook " ><LFB class="lf " src={Search} alt="Facebook "/></Link2>
+	<Link2 to="/prueba" title="Facebook" ><LFB class="lf" src={Search} alt="Facebook"/></Link2>
 
-	<Link2 to="/login" title="User " class="redd "><LR class="lr " src={User} alt="logo Reddit "/></Link2>
+	<Link2 to="/login" title="User" class="redd"><LR class="lr" src={User} alt="logo Reddit"/></Link2>
+	
+						
+
+
 </RRSS>
 
 		<Prueba/>
@@ -86,7 +93,7 @@ import Prueba2 from "../../pruebas/Prueba2";
 </Contenedor>
  
 
-</Router>
+{/* </Router> */}
 			</>
 		);
 							};
@@ -94,3 +101,4 @@ import Prueba2 from "../../pruebas/Prueba2";
 
 
 export default Header;
+

@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 
+
 export const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: relative;
+  /* margin-left:35%;
+  width:107%; */
   /* top: 15px; */
   /* right: 15%; */
   /* right:${({ open }) => open ? '-180%' : '85%'}; */
   /* antes habia un -350% */
-  right:${({ open }) => open ? '0%' : '85%'};
+  right:${({ open }) => open ? '1950%' : '75%'};
 
 
   z-index: 20;
@@ -20,9 +23,33 @@ export const StyledBurger = styled.div`
     justify-content: space-around;
     flex-flow: column nowrap;
   }
+  @media (max-width:768px){
+ 
+ /* right:${({ open }) => open ? '990%' : '75%'}; */
+ right:${({ open }) => open ? '41vw' : '75%'};
+ /* right:${({ open }) => open ? '300px' : '75%'}; */
+
+}
+  @media (max-width:425px){
+ 
+ /* right:${({ open }) => open ? '470%' : '75%'}; */
+
+}
+  @media (max-width:375px){
+ 
+    /* right:${({ open }) => open ? '390%' : '75%'}; */
+   
+  }
+  @media (max-width:320px){
+    /* right:${({ open }) => open ? '-60%' : '75%'}; */
+    /* right:${({ open }) => open ? '320%' : '75%'}; */
+    /* margin-right:10%; */
+    /* position: fixed; */
+  }
   div{
+    /* position: fixed; */
     width: 2rem;
-    height: 0.25rem;
+    height: 0.35rem;
     background-color: white;
     /* ${({ open }) => open ? '#ccc' : '#333'}; */
     border-radius: 10px;
@@ -30,6 +57,7 @@ export const StyledBurger = styled.div`
     transition: all 0.3s linear;
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+      /* position: fixed; */
     }
     &:nth-child(2) {
       transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
@@ -37,6 +65,7 @@ export const StyledBurger = styled.div`
     }
     &:nth-child(3) {
       transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+      /* position: fixed; */
     }
   }
 `;
@@ -45,7 +74,7 @@ export const StyledBurger = styled.div`
 
 export const Div=styled.div`
 z-index: 3;
-
+/* width: 3vw; */
 
 
 

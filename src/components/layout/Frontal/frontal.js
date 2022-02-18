@@ -74,6 +74,9 @@ import DE from "../../../img/DE.jpg";
 import Analisis from "../../analisis/analisis";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import User from "../../../img/User2.svg";
+import Registro from "../../Registro/registro";
+
 
 
 const Frontal =()=>{
@@ -82,8 +85,9 @@ const Frontal =()=>{
         return(
             <>
             
+            
             <Container>
-             
+             {/* <Registro/> */}
                     <Header/>
                         <Frontal1>
                         <Col><Img1><Foto1 src={Elden} alt="icono web"/><Titular to="#">DFHDFHDHF</Titular></Img1>
@@ -95,6 +99,7 @@ const Frontal =()=>{
                         <Linkfront2 to="/analisis"><Contitular><Titulofront2> Podcast Reload: Programa 6, Temporada 13</Titulofront2></Contitular></Linkfront2>
                         
                         </Col2>
+                       
 
 
 

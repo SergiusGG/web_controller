@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 export const RRSS = styled.div`
 
+
    
     display: flex;
   
@@ -117,7 +118,7 @@ cursor: pointer;
 export const Mando=styled.img`
 
     display: block;
-    width: 70%;
+    width: 90%;
   
 
     @media (max-width: 375px) {
@@ -203,3 +204,27 @@ export const Header1=styled.div`
 
 `
 
+export const Foto=styled.img`
+width: 100%;
+    height: 96.8%;
+    
+    object-fit: cover;
+    @media (max-width: 620px) {
+        position: relative;
+    padding-bottom: 1.25%;
+    height: 22vh;
+    width: 100%;
+   
+  
+   
+  }`
+  
+  export const Linkfront2=styled(Link)`
+position: relative;
+    padding: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+
+`

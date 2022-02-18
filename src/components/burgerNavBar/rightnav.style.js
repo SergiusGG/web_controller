@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 export const Ul = styled.ul`
@@ -54,6 +55,12 @@ width: 100vw;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     
+
+
+`
+export const Link2=styled(Link)`
+
+
 
 
 `
