@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/web_controller/static/css/main.83f8d106.css",
+    "main.js": "/web_controller/static/js/main.5c22716b.js",
+    "static/js/787.2c8ff3aa.chunk.js": "/web_controller/static/js/787.2c8ff3aa.chunk.js",
+    "static/media/Elden3.jpg": "/web_controller/static/media/Elden3.7bfd522a2081681feaef.jpg",
+    "static/media/Podcast.png": "/web_controller/static/media/Podcast.9325c830baa2da51d2d4.png",
+    "static/media/Elden2.jpg": "/web_controller/static/media/Elden2.fbc7a08b3fcf1480a934.jpg",
+    "static/media/DE.jpg": "/web_controller/static/media/DE.b32ab0a13ac65c5d9bba.jpg",
+    "static/media/Hades.jpg": "/web_controller/static/media/Hades.ca83aec167df2dffe3c8.jpg",
+    "static/media/Steam.jpg": "/web_controller/static/media/Steam.7e1523fe3d77ec389dac.jpg",
+    "static/media/Elden.jpg": "/web_controller/static/media/Elden.34330414f60df8cbdfdb.jpg",
+    "static/media/ER.png": "/web_controller/static/media/ER.58c48cd81b0aab09af82.png",
+    "static/media/Pixel.jpg": "/web_controller/static/media/Pixel.dd6a1a2029fe3c0387c8.jpg",
+    "static/media/b1.jpg": "/web_controller/static/media/b1.adcad410a387703b7168.jpg",
+    "static/media/b3.jpg": "/web_controller/static/media/b3.276d4db9e5ce0f1e75d0.jpg",
+    "static/media/Primero.jpg": "/web_controller/static/media/Primero.27deca2aad701adf4414.jpg",
+    "static/media/Metroid.jpg": "/web_controller/static/media/Metroid.ac91a339a31c9c08b88f.jpg",
+    "static/media/Kena.jpg": "/web_controller/static/media/Kena.99cf081d5c61581818e2.jpg",
+    "static/media/joystick.svg": "/web_controller/static/media/joystick.09215ce9e9f6c9433bb13d9845d5a365.svg",
+    "static/media/logo.svg": "/web_controller/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/reddit-2-logo-svg-vector.svg": "/web_controller/static/media/reddit-2-logo-svg-vector.0a1eca1a339c1df9c6202f388674f409.svg",
+    "static/media/twitter.svg": "/web_controller/static/media/twitter.c375cbfd35b744b70aacad6444abb3a7.svg",
+    "static/media/facebook.svg": "/web_controller/static/media/facebook.460a4094838b44dd85bcb40e2f84fc53.svg",
+    "index.html": "/web_controller/index.html",
+    "static/media/fondo.svg": "/web_controller/static/media/fondo.c7f27e4d36f25154e595d3a5b4e07833.svg",
+    "static/media/User2.svg": "/web_controller/static/media/User2.9fd9547f6f53286029f1cea1b2b28ffe.svg",
+    "static/media/user.svg": "/web_controller/static/media/user.3b2327e4f38828ed2ad9f7b64f068da2.svg",
+    "static/media/Search.svg": "/web_controller/static/media/Search.b96a053063172e47ff68a0fb7793cc39.svg",
+    "main.83f8d106.css.map": "/web_controller/static/css/main.83f8d106.css.map",
+    "main.5c22716b.js.map": "/web_controller/static/js/main.5c22716b.js.map",
+    "787.2c8ff3aa.chunk.js.map": "/web_controller/static/js/787.2c8ff3aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83f8d106.css",
+    "static/js/main.5c22716b.js"
+  ]
+}
