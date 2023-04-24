@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web_controller/static/css/main.83f8d106.css",
-    "main.js": "/web_controller/static/js/main.5c22716b.js",
+    "main.js": "/web_controller/static/js/main.593063a2.js",
     "static/js/787.2c8ff3aa.chunk.js": "/web_controller/static/js/787.2c8ff3aa.chunk.js",
     "static/media/Elden3.jpg": "/web_controller/static/media/Elden3.7bfd522a2081681feaef.jpg",
     "static/media/Podcast.png": "/web_controller/static/media/Podcast.9325c830baa2da51d2d4.png",
@@ -28,11 +28,11 @@
     "static/media/user.svg": "/web_controller/static/media/user.3b2327e4f38828ed2ad9f7b64f068da2.svg",
     "static/media/Search.svg": "/web_controller/static/media/Search.b96a053063172e47ff68a0fb7793cc39.svg",
     "main.83f8d106.css.map": "/web_controller/static/css/main.83f8d106.css.map",
-    "main.5c22716b.js.map": "/web_controller/static/js/main.5c22716b.js.map",
+    "main.593063a2.js.map": "/web_controller/static/js/main.593063a2.js.map",
     "787.2c8ff3aa.chunk.js.map": "/web_controller/static/js/787.2c8ff3aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83f8d106.css",
-    "static/js/main.5c22716b.js"
+    "static/js/main.593063a2.js"
   ]
 }
