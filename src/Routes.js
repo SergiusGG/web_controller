@@ -1,5 +1,8 @@
 import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Switch, Route,
+  //  BrowserRouter
+  HashRouter
+} from "react-router-dom";
 import Footer from './components/layout/Footer/Footer';
 import Header from './components/layout/Header/Header';
 import Frontal from './components/layout/Frontal/frontal';
@@ -13,7 +16,8 @@ import Burger from "./components/pruebas/Prueba2"
 function Routes(){
     return(
 
-        <BrowserRouter>
+        // <BrowserRouter>
+        <HashRouter>
         <ScrollToTop>
     
 	<Switch>
@@ -56,7 +60,8 @@ function Routes(){
     </Route>
 	</Switch>
   </ScrollToTop>
-</BrowserRouter>
+{/* // </BrowserRouter> */}
+</HashRouter>
 
 
 

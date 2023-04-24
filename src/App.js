@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import React from "react";
 
-import {Route, Switch, BrowserRouter, Router, Link} from "react-router-dom";
+import {Route, Switch, 
+  // BrowserRouter,
+  HashRouter,
+   Router, Link} from "react-router-dom";
 import Footer from './components/layout/Footer/Footer';
 import Header from './components/layout/Header/Header';
 import Frontal from './components/layout/Frontal/frontal';
@@ -18,12 +21,12 @@ function App() {
   
   return (
 
+<HashRouter>
 
-
-    <BrowserRouter>
+    {/* // <BrowserRouter> */}
 <Routes/>
-  
-</BrowserRouter>
+  </HashRouter>
+// </BrowserRouter>
     
   );
 }
