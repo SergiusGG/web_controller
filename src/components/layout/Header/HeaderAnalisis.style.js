@@ -96,10 +96,10 @@ background-image: url(${Elden2});
 background-size: cover;
 background-position: 80% 0%;
 background-repeat: no-repeat;
-position: absolute;
-    top: 0;
+/* position: absolute; */
+    /* top: 0;
     right: 0;
-    left: 0;
+    left: 0; */
     height: 100%;
     z-index: 0;
 

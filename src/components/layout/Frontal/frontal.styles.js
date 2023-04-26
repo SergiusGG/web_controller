@@ -235,7 +235,9 @@ export const Cuerpo=styled.div`
 
     width: 40%;
 
-    @media(min-width:320px) and (max-width:374px){
+    @media
+    /* (min-width:320px) and  */
+    (max-width:374px){
         flex: 0 1 774px;
     }
 `
@@ -243,13 +245,19 @@ export const Cuerpo=styled.div`
 export const Indice=styled.div`
 border-top: 1px solid #9b9b9b;
 
-  @media(min-width:665px) and (max-width:1600px){
+  @media
+  /* (min-width:665px) and */
+   (max-width:1600px){
   width:80%;
   }
-  @media(min-width:519px) and (max-width:665px){
+  @media
+  /* (min-width:519px) and */
+   (max-width:665px){
     width:60%;
   }
-  @media(min-width:375px) and (max-width:519px){
+  @media
+  /* (min-width:375px) and  */
+  (max-width:519px){
     width:42%;
   }
 `

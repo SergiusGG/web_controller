@@ -39,7 +39,7 @@ const Analisis = () => {
             <HeaderAnalisis>
                
             </HeaderAnalisis>
-            <Container style = {{  marginTop : "60%" }}>
+            <Container style = {{  marginTop : "10%" }}>
             <Headerart>
             <p style={{marginRight:"5%"}}>por MARTA TRIVI</p>
                 <p>28 OCTUBRE 2021</p>
