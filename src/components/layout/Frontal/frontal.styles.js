@@ -12,7 +12,7 @@ display: grid;
     max-width: 1440px;
 
     @media(min-width:0px) and (max-width:620px){
-        display: block;
+        /* display: block; */
     grid-template-columns: repeat(1,1fr);
     grid-auto-rows: minmax(300px,auto);
     grid-gap: 2px;
@@ -72,6 +72,8 @@ export const Titulofront=styled.h2`
 
 font-size: 26px;
     line-height: 28.6px;
+margin-top:20% ;
+  
     
 `
 
@@ -79,6 +81,8 @@ export const Titulofront2=styled.h2`
 
 font-size: 26px;
     line-height: 28.6px;
+    margin-top: 55%;
+    color: black;
     
 `
 
@@ -151,7 +155,8 @@ grid-row-end: span 2;
         -webkit-box-pack: start;
     justify-content: flex-start;
     height: 55%;
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
+grid-row-end:span 1;
       
       }
 
@@ -558,34 +563,35 @@ export const Fondo=styled.div`
     position: absolute;
   
     
-    @media (min-width:425px) and (max-width: 725px) {
+    @media (min-width:425px) {
     position: absolute;
     width: 100%;
     height: 65%;
     
     }
-    @media (min-width:725px) and (max-width: 875px) {
+    @media (min-width:725px) {
     position: absolute;
     width: 100%;
     height: 75%;
     
     }
-    @media(min-width:0px) and (max-width:425px){
+    @media(min-width:0px) {
         width: 100%;
     height: 50%;
+    
     }
 
-    @media (min-width:875px) and (max-width: 1200px) {
+    @media (min-width:875px)  {
     position: absolute;
     width: 100%;
     height: 95%;
     
     }
-    @media (min-width:1201px)  and (max-width:1440px){
+    @media (min-width:1200px) {
          width: 100%;
     height: 94%;
     }
-    @media (min-width:1441px)  and (max-width:2560px){
+    @media (min-width:1440px){
          width: 80%;
     height: 94%;
     margin: auto;
@@ -598,8 +604,11 @@ export const Fondoimg=styled.img`
 width: 100%;
     height: 78%;
     object-fit: cover;
-    @media(min-width:0) and (max-width:425px){
-    height: 165%;
+    /* @media(min-width:375px){
+        height: ;
+    } */
+    @media(min-width:425px){
+    /* height: 165%; */
 }
 `
 
@@ -609,10 +618,11 @@ position: relative;
 `
 
 export const Superioresc=styled.div`
-margin-left: auto;
+/* margin-left: auto; */
 max-width: 50%;
-margin-bottom: 12%;
-margin-top: 3%;
+/* margin-bottom: 12%; */
+/* margin-top: 3%; */
+margin:3% 0 4% auto ;
 `
 export const Superiorsub=styled.div`
 font-size: 20px;
@@ -647,33 +657,39 @@ export const Artinf=styled.div`
     display: flex;
     margin-top: 6%;
     margin-left: 3%;
-    @media (max-width:2560px){
+    @media (min-width:1440px){
         margin-top: 13%;
     margin-left: 18%;
     width: 90%;
     }
-    @media (max-width: 1440px) {
+    @media (min-width: 1024px) {
         display: flex;
     margin-top: 6%;
     margin-left: 5%;
     width: 25%;
     }
-    @media (max-width:1024px){
+    @media (min-width:840px){
     margin-left: 5%;
     width: 23%;
     }
-@media(max-width:840px){
+@media(min-width:768px){
     overflow-x: scroll;
     overflow-y: hidden;
     width: 55%;
 }
-@media(max-width:768px){
-    overflow-x: scroll;
-    overflow-y: hidden;
-    width: 100vw;
-    height:25vh ;
+@media(min-width:0px){
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    /* width: 100vw; */
+    /* margin:0 ;
+    height:14vh ;
+    width:25% ; */
+    overflow: scroll hidden;
+    margin: 0px;
+    height: 14vh;
+    width: 32%;
 }
-@media(max-width:425px){
+@media(min-width:525px){
     overflow-x: scroll;
     overflow-y: hidden;
     width: 25%;
@@ -691,7 +707,7 @@ export const Articuloinf=styled.div`
     flex: 1;
     border-top: 1px solid;
     border-right: 1px solid;
-    @media(max-width:2000px){
+    @media(min-width:1440px){
         -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -700,7 +716,7 @@ export const Articuloinf=styled.div`
     border-right: 1px solid;
     width: 0%;
   }
-    @media(max-width:1440px){
+    @media(min-width:1024px){
         -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -709,7 +725,7 @@ export const Articuloinf=styled.div`
     border-right: 1px solid;
     width: 55%;
   }
-  @media(max-width:1024px){
+  @media(min-width:425px){
         -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -718,7 +734,7 @@ export const Articuloinf=styled.div`
     border-right: 1px solid;
     width: 40%;
   }
-  @media(max-width:425px){
+  @media(min-width:0px){
         -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -739,25 +755,25 @@ display: block;
     box-sizing: border-box;
     padding-bottom: 90%;
 
-    @media (max-width: 1500px) {
+    @media (min-width: 1024px) {
         display: block;
     padding: 10px;
     height: 35vh;
     box-sizing: border-box;
      padding-bottom: 90%;
   } 
-  @media (max-width: 1024px) {
+  @media (min-width: 768px) {
      
     height: 32vh;
     
   } 
-  @media (max-width: 768px) {
+  @media (min-width: 0px) {
        
     height: 28vh;
     width: 44vw;
    
   } 
-  @media (max-width: 768px) {
+  @media (min-width: 0px) {
      
     height: 66vh;
     width: 44vw;

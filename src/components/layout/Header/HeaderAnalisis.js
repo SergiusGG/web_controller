@@ -19,6 +19,7 @@ import {
 	LFB,
 	LR,
 	Link2,
+	LinkF,
 	Mando,
 	Contenedor,
 	Contenedor1,
@@ -56,11 +57,13 @@ import Prueba from "../../pruebas/Prueba";
 	 
 <Contenedor1>
 	<Prueba/>
-	<Link to="/">
+	<LinkF to="/" 
+	// style={{width: "15%"}}
+	>
 <MandoH>
 	<Mando src={mando} alt="icono web"/>
 	</MandoH>
-</Link>
+</LinkF>
 <Header1>
 	<List>
 		<ListItem><NavA to="#" title="Sony ">Sony</NavA></ListItem>
@@ -72,6 +75,7 @@ import Prueba from "../../pruebas/Prueba";
 
 	</List>
 	</Header1>
+
 
 
 

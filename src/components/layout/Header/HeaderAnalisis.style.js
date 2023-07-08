@@ -8,28 +8,48 @@ height: 20vh;
 
 
 `
+export const LinkF=styled(Link)`
+@media only screen and (min-width:1024px){
+    width:15% ;
+}
+
+`
 export const RRSS = styled.div`
 
    
     display: flex;
     
-    flex-direction: column;
+    flex-direction: row-reverse;
     
-    justify-content: space-evenly;
-    width: 4%;
-    
+    /* justify-content: space-evenly; */
+    width: 95%;
+    padding-top:8%;
     padding-bottom: 2%;
 
 
-    @media(min-width:425px) and (max-width:1024px){
+    /* @media(min-width:425px) and (max-width:1024px){
     
     width: 9vw;
+    } */
+     @media(min-width:620px){
+    margin-top: 1.1%;
+    /* width: 28vw; */
+flex-direction:column; 
+width: 10%;
+    padding-top:0%;
     }
-    @media(max-width:620px){
+    @media(min-width:1024px){
+    /* margin-top: 7.1%;
+    width: 28vw; */
+flex-direction:column; 
+width: 4%;
+    padding-top: 1%;
+    }
+    /* @media(min-width:0px){
     margin-top: 7.1%;
     width: 28vw;
     flex-direction: row;
-    }
+    } */
 
 `
 
@@ -39,13 +59,16 @@ export const Icon =styled.div`
 
 `
 
+
 export const Link2=styled(Link)`
 
-height: 20%;
+height: 75%;
 cursor: pointer;
 @media(min-width:425px) and (max-width:1024px){
-    height: 4vh; 
-    width: 8vw;
+    /* height: 4vh; 
+    width: 8vw; */
+    height: 4vh;
+    width: 5vw;
     }
 `
 
@@ -86,6 +109,10 @@ export const Mando=styled.img`
 
     display: block;
     width: 55%;
+
+    @media only screen and (min-width:1024px){
+        width:100% ;
+    }
   
 
 
@@ -106,16 +133,17 @@ background-repeat: no-repeat;
 
 height: 100vh;
 
- @media (max-width:375px){
+ @media (min-width:0px){
+    background-size:cover;
      
      min-width: 375px;
     }
-    @media (min-width:426px)and (max-width:1024px){
-    }
-    @media (max-width:2000px){
+    /* @media (min-width:426px)and (max-width:1024px){
+    } */
+    /* @media (max-width:2000px){
      
      background-size:cover;
-    }
+    } */
 `
 
 export const Contenedor1=styled.div`
@@ -172,10 +200,17 @@ color: white;
 `
 export const Header1=styled.div`
     display: block;
-    width: 60%;
-@media(max-width:1024px){
+    width: 60%;  
+    @media(min-width:0px){
     display: none;
 }
+    @media(min-width:1024px){
+    display: inline-block;
+}
+  
+/* @media(max-width:1024px){
+    display: none;
+} */
 
 `
 
@@ -184,8 +219,9 @@ width: 100%;
 
 `
 
+
 export const Parrafo=styled.p`
-@media(max-width:2400px){
+@media(min-width:0px){
 font-size: 1.3em;
     line-height: 35px;
     color: white;
@@ -198,7 +234,38 @@ font-size: 1.3em;
 `
 
 export const ContTitular=styled.div`
-@media(max-width:2000px){
+
+
+
+
+@media(min-width:0px){
+   width: 87%;
+    margin: auto;
+    padding-top: 80%; 
+}
+@media(min-width:425px){
+    /* width: 70%; */
+    margin: auto;
+    padding-top: 30%;
+}
+@media(min-width:768px){
+   width: 70%;
+    margin: auto;
+    padding-top: 25%; 
+}
+@media(min-width:1024px){
+width: 60%;
+    margin: auto;
+    padding-top: 15%;
+}
+@media(min-width:1400px){
+width: 40%;
+    margin: auto;
+    padding-top: 15%;
+}
+
+
+/* @media(max-width:2000px){
 width: 40%;
     margin: auto;
     padding-top: 15%;
@@ -218,7 +285,7 @@ width: 40%;
    width: 87%;
     margin: auto;
     padding-top: 80%; 
-}
+} */
 
 
 `

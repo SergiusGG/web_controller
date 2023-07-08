@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 
-export const RRSS = styled.div`
+// export const RRSS = styled.div`
 
+
+/* 
 
    
     display: flex;
@@ -14,7 +16,31 @@ export const RRSS = styled.div`
     width: 4%;
     
     padding-bottom: 2%;
-@media(max-width:620px){
+
+
+@media(min-width:0px){
+    width: 37vw;
+    flex-direction: column;
+
+    }
+    @media(min-width:375px){
+        
+    width: 30vw;
+    }
+    @media(min-width:425px){
+    /* margin-top: 10.1%;
+    width: 28vw;
+    flex-direction: row-reverse; */
+    /* margin-top: 2.1%;
+    width: 20vw;
+    flex-direction: column;
+    height:14vh ;
+    } */
+    
+    // 620 */
+
+
+/* @media(max-width:620px){
     margin-top: 10.1%;
     width: 28vw;
     flex-direction: row-reverse;
@@ -25,9 +51,47 @@ export const RRSS = styled.div`
     }
     @media(max-width:375px){
     width: 37vw;
-    }
+    } */
 
+
+// `
+export const RRSS = styled.div`
+
+   
+    display: flex;
     
+    flex-direction: row-reverse;
+    
+    /* justify-content: space-evenly; */
+    width: 95%;
+    padding-top:8%;
+    padding-bottom: 2%;
+
+
+    /* @media(min-width:425px) and (max-width:1024px){
+    
+    width: 9vw;
+    } */
+     @media(min-width:620px){
+    margin-top: 1.1%;
+    /* width: 28vw; */
+flex-direction:column; 
+width: 10%;
+    padding-top:0%;
+    }
+    @media(min-width:1024px){
+    /* margin-top: 7.1%;
+    width: 28vw; */
+flex-direction:column; 
+width: 4%;
+    padding-top: 1%;
+    }
+    /* @media(min-width:0px){
+    margin-top: 7.1%;
+    width: 28vw;
+    flex-direction: row;
+    } */
+
 `
 
 
@@ -104,7 +168,7 @@ border-bottom: 1px solid #2c2c2c;
 
 export const Link2=styled(Link)`
 
-height: 20%;
+height: 75%;
 cursor: pointer;
 @media(max-width:425px) {
     height: 5vh; 
@@ -196,10 +260,10 @@ color: black;
 
 `
 export const Header1=styled.div`
-    display: block;
-    width: 60%;
-@media(max-width:1024px){
     display: none;
+    width: 60%;
+@media(min-width:1024px){
+    display: block;
 }
 
 `
