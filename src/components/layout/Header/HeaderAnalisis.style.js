@@ -64,6 +64,9 @@ export const Link2=styled(Link)`
 
 height: 75%;
 cursor: pointer;
+@media(max-width:768px){
+    display:none ;
+}
 @media(min-width:425px) and (max-width:1024px){
     /* height: 4vh; 
     width: 8vw; */

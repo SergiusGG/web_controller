@@ -19,12 +19,12 @@ export const StyledBurger = styled.div`
   display: none;
   cursor: pointer;
   @media (max-width: 2068px) {
+    
+  }
+  @media (max-width:768px){
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
-  }
-  @media (max-width:768px){
- 
  /* right:${({ open }) => open ? '990%' : '75%'}; */
  right:${({ open }) => open ? '41vw' : '75%'};
  /* right:${({ open }) => open ? '300px' : '75%'}; */

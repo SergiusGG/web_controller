@@ -170,9 +170,15 @@ export const Link2=styled(Link)`
 
 height: 75%;
 cursor: pointer;
+@media(max-width:768px) {
+    /* height: 5vh; 
+    width: 11vw; */
+display:none
+    }
 @media(max-width:425px) {
     height: 5vh; 
     width: 11vw;
+/* display:none */
     }
 @media(max-width:375px){
     height: 65%;

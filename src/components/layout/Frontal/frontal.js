@@ -93,7 +93,7 @@ const Frontal = () => {
           <Col>
             <Img1>
               <Foto1 src={Elden} alt="icono web" />
-              <Titular to="#">DFHDFHDHF</Titular>
+              <Titular to="#">Lorem ipsum dolor</Titular>
             </Img1>
 
             <Linkfront to="/analisis">
@@ -107,7 +107,7 @@ const Frontal = () => {
           <Col2>
             <Img>
               <Foto src={Metroid} alt="icono web" />
-              <Titular2 to="#">DFHDFHDHFrgdrg</Titular2>
+              <Titular2 to="#">Lorem ipsum dolor</Titular2>
             </Img>
             <Linkfront2 to="/analisis">
               <Contitular>
@@ -122,7 +122,7 @@ const Frontal = () => {
           <Col2>
             <Img>
               <Foto src={Kena} alt="icono web" />
-              <Titular2 to="#">DFHDFHDHFrgdrg</Titular2>
+              <Titular2 to="#">Lorem ipsum dolor</Titular2>
             </Img>
             <Linkfront2 to="#">
               <Contitular>
@@ -137,28 +137,28 @@ const Frontal = () => {
           <Col3>
             <Img1>
               <Foto1 src={Podcast} alt="icono web" />
-              <Titular to="#">DFHDFHDHF</Titular>
+              <Titular to="#">Lorem ipsum dolor</Titular>
             </Img1>
             <Linkfront to="#">
-              <Titulofront>wejbgbsegsdbgkbsdg</Titulofront>
+              <Titulofront>Lorem ipsum dolor</Titulofront>
             </Linkfront>
           </Col3>
           <Col>
             <Img1>
               <Foto1 src={Steam} alt="icono web" />
-              <Titular to="#">DFHDFHDHF</Titular>
+              <Titular to="#">Lorem ipsum dolor</Titular>
             </Img1>
             <Linkfront to="#">
-              <Titulofront>wejbgbsegsdbgkbsdg</Titulofront>
+              <Titulofront>Lorem ipsum dolor</Titulofront>
             </Linkfront>
           </Col>
           <Col3>
             <Img1>
               <Foto1 src={Pixel} alt="icono web" />
-              <Titular to="#">DFHDFHDHF</Titular>
+              <Titular to="#">Lorem ipsum dolor</Titular>
             </Img1>
             <Linkfront to="#">
-              <Titulofront>wejbgbsegsdbgkbsdg</Titulofront>
+              <Titulofront>Lorem ipsum dolor</Titulofront>
             </Linkfront>
           </Col3>
         </Frontal1>

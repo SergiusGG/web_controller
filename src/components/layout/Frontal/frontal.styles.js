@@ -82,7 +82,7 @@ export const Titulofront2=styled.h2`
 font-size: 26px;
     line-height: 28.6px;
     margin-top: 55%;
-    color: black;
+    color: white;
     
 `
 
